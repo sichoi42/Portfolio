@@ -1,0 +1,41 @@
+{
+  "home": {
+    "Hi There!": "안녕하세요!",
+    "I'M": "제 이름은",
+    "name": "최시원",
+    "surplus": "입니다.",
+    "type": {
+      "1": "소프트웨어 엔지니어",
+      "2": "백엔드 개발자",
+      "3": "데브옵스 엔지니어",
+      "4": "인프라 엔지니어"
+    }
+  },
+  "project": {
+    "subTitle": "다음은 저의 최근 프로젝트 입니다.",
+    "cabi": {
+      "title": "CABI",
+      "description": "CABI는 42 Seoul 교육생을 위한 사물함 대여 서비스입니다. 이 서비스는 교육생들이 사물함을 대여하고 반납할 수 있도록 지원하며, 데스크 관리를 위한 관리자 페이지도 제공합니다. React + Spring Boot로 진행한 프로젝트이며, 저는 이 프로젝트에서 데이터베이스 설계와 API 구현에 주력하였습니다. 뿐만 아니라, 인프라 관련 작업에도 큰 기여를 하였습니다. 팀원들의 로컬 개발환경 설정을 돕기 위해 Docker를 활용하고, Github Actions를 통해 CI/CD 워크플로우를 구축하였습니다. 또한, AWS의 EC2, CodeDeploy, S3, CloudFront 등과 같은 서비스를 활용하여 서버 아키텍처를 설계하고 구현하는 데도 많은 노력을 기울였습니다. 현재는 서버 운영을 담당하고 있으며, Spring Actuator, Prometheus, Grafana를 활용한 서버 모니터링 시스템과 pinpoint를 이용한 트래픽 추적 시스템을 구축하였습니다.",
+      "ghLink": "https://github.com/innovationacademy-kr/42cabi",
+      "demoLink": "https://cabi.42seoul.io"
+    },
+    "diary": {
+      "title": "공유일기",
+      "description": "공유일기는 가족, 친구, 연인, 그룹 모임과 함께 작성하는 일기장을 제공하는 모바일 애플리케이션입니다. 이 애플리케이션은 사용자들이 함께 일기를 작성하고, 작성한 일기를 공개하여 더 많은 사람들과 소통할 수 있는 기회를 제공합니다. 이 프로젝트는 SwiftUI 및 Spring Boot를 사용하여 개발되었으며, 저는 이곳에서 데이터베이스 설계와 API 구현에 주력했습니다. 또한 Docker를 활용하여 팀원들의 개발 환경을 지원하고, Github Actions를 사용하여 CI/CD 워크플로우를 구축했습니다. 뿐만 아니라, AWS의 EC2, CodeDeploy, S3, CloudFront 등과 같은 서비스를 활용하여 서버 아키텍처를 설계하고 구현하는 데도 노력을 기울였습니다.",
+      "ghLink": "https://github.com/JoHoEunSaE/exchange-diary",
+      "demoLink": "https://apps.apple.com/kr/app/%EA%B3%B5%EC%9C%A0%EC%9D%BC%EA%B8%B0/id1560228277"
+    },
+    "voice-with-me": {
+      "title": "Voice With Me",
+      "description": "Voice With Me는 ChatGPT와 음성으로 대화할 수 있는 서비스입니다. 유저는 GPT에게 음성으로 질문을 할 수 있고, 음성으로 답변을 들을 수 있습니다. NextJS로 진행한 프로젝트이며 https://github.com/mckaywrigley/chatbot-ui 해당 오픈소스를 기반으로 진행하였습니다. OpenAI의 Whisper 모델 API를 활용하여 사용자의 음성을 텍스트로 변환하고, gpt-3.5 모델 API를 활용하여 답변을 생성합니다. Vercel로 데모 버전이 배포되어 있습니다.",
+      "ghLink": "https://github.com/sichoi42/voice-with-me",
+      "demoLink": "https://voice-with-me.vercel.app/"
+    },
+    "bossle": {
+      "title": "Bossle",
+      "description": "Bossle은 외출 전에 사용자에게 우산을 챙기라고 일깨워주는 모바일 라이브스크린 애플리케이션입니다. 이 애플리케이션은 사용자의 현재 위치를 기반으로 날씨 정보를 제공하여 잠금화면에서 현재 날씨 상황을 확인할 수 있습니다. 예를 들어, 현재 사용자의 지역에 비가 오고 있다면, 비가 오는 듯한 라이브스크린이 표시됩니다. 저는 이 프로젝트에서 날씨 정보를 제공하는 AWS Lambda (NodeJS Runtime) 함수를 생성하여, 이를 API Gateway를 통해 사용자에게 제공하는 역할을 담당했습니다. 배포 및 관리를 용이하게 하기 위해 Serverless Application Model (SAM) 서비스를 활용했습니다. 덕분에 AWS Lambda 함수를 쉽게 테스트하고 배포할 수 있었습니다.",
+      "ghLink": "https://github.com/dgu-BOSSLE/weather-app",
+      "demoLink": "https://play.google.com/store/apps/details?id=com.bossle.bossle"
+    }
+  }
+}

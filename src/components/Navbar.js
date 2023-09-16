@@ -15,6 +15,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import Language from "./Language";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -94,7 +95,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://blog.sichoi.dev"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -115,6 +116,7 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <Language />
     </Navbar>
   );
 }

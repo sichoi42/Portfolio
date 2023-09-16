@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,49 +8,101 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 function Home2() {
+  const { t, i18n } = useTranslation();
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+            {i18n.language === "en" ? (
+              <h1 style={{ fontSize: "2.6em" }}>
+                LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              </h1>
+            ) : (
+              <h1 style={{ fontSize: "2.6em" }}>
+                저에 대해 <span className="purple">소개</span>해 드릴게요
+              </h1>
+            )}
+
+            {i18n.language === "en" ? (
+              <p className="home-about-body">
+                I love programming and enjoy learning new things.
+                <br />
+                There's still a lot to learn, but I'm constantly growing with
+                this mindset.
+                <br />
+                If I were to describe myself in one line,{" "}
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  I'm a developer who knows how to catch fish.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+                <br />
+                <br />I am proficient in these languages:
+                <i>
+                  <b className="purple">Java, Javascript/Typescript, Python</b>
+                </i>
+                <br />
+                <br />I have an interest in the following areas:
+                <i>
+                  <b className="purple">Server, Cloud Service, Automation</b>
+                </i>
+                <br />
+                <br />
+                I primarily develop using the following technologies:
+                <br />·{" "}
+                <b className="purple">Spring, Spring Boot, Spring Framework</b>
+                <br />· <b className="purple">Node.js</b>, and
+                <i>
+                  <b className="purple"> Express.js, Nest.js</b>
+                </i>
+                &nbsp;like
+                <i>
+                  <b className="purple"> Modern Javascript Frameworks</b>
+                </i>
+              </p>
+            ) : (
+              <p className="home-about-body">
+                저는 프로그래밍을 사랑하고 새로운 것을 배우는 것을 좋아해요.{" "}
+                <br />
+                아직 배울 것이 많지만, 이런 마음가짐으로 끊임없이 성장하고
+                있어요. <br />
+                저에 대해 한 줄로 표현하자면,{" "}
+                <b className="purple"> 물고기 잡는 방법을 아는 개발자 </b>
+                입니다.
+                <br />
+                <br />
+                저는 이 언어들을 잘 다룹니다.
+                <i>
+                  <b className="purple">
+                    {" "}
+                    Java, Javascript/Typescript, Python{" "}
+                  </b>
+                </i>
+                <br />
+                <br />
+                저는 다음과 같은 분야에 관심이 있어요.
+                <i>
+                  <b className="purple"> Server, Cloud Service, Automation </b>
+                </i>
+                <br />
+                <br />
+                저는 주로 다음과 같은 기술들을 이용하여 개발해요.
+                <br />·{" "}
+                <b className="purple"> Spring, Spring Boot, Spring Framework</b>
+                <br />· <b className="purple"> NodeJS</b> 그리고
+                <i>
+                  <b className="purple"> ExpressJS, NestJS</b>
+                </i>
+                &nbsp;같은
+                <i>
+                  <b className="purple"> Modern Javascript Frameworks</b>
+                </i>
+              </p>
+            )}
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -61,13 +113,20 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            {i18n.language === "en" ? (
+              <p>
+                Feel free to <span className="purple">connect </span>with me
+              </p>
+            ) : (
+              <p>
+                저에 대해 궁금한 점이 있으시면 언제든지{" "}
+                <span className="purple">연락</span>주세요
+              </p>
+            )}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/sichoi42"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +146,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/최시원/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +156,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/csiweon"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

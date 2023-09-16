@@ -1,0 +1,41 @@
+{
+  "home": {
+    "Hi There!": "Hi There!",
+    "I'M": "I'M",
+    "name": "Sichoi",
+    "surplus": "",
+    "type": {
+      "1": "Software Developer",
+      "2": "Freelancer",
+      "3": "MERN Stack Developer",
+      "4": "Open Source Contributor"
+    }
+  },
+  "project": {
+    "subTitle": "Here are a few projects I've worked on recently.",
+    "cabi": {
+      "title": "CABI",
+      "description": "CABI is a locker(cabinet) rental service for 42 Seoul students. This service supports students in renting and returning lockers and includes an admin page for desk management. In this project, I primarily contributed to database design and API implementation. Additionally, I made significant contributions to infrastructure-related tasks. I used Docker for configuring team members' local development environments and established a CI/CD workflow using Github Actions. I also designed and implemented the server architecture using AWS services such as EC2, CodeDeploy, S3, and CloudFront. Currently, I am responsible for server operations. To support this role, I set up a server monitoring system using Spring Actuator, Prometheus, and Grafana, and implemented a traffic tracking system using Pinpoint.",
+      "ghLink": "https://github.com/innovationacademy-kr/42cabi",
+      "demoLink": "https://cabi.42seoul.io"
+    },
+    "diary": {
+      "title": "Exchange Diary",
+      "description": "Exchange Diary is a mobile application that provides a diary where users can create entries together with their family, friends, loved ones, or group gatherings. It allows people to collaborate on filling up the diary and also offers the opportunity to share the written entries with a wider audience. This project was developed using SwiftUI and Spring Boot. I primarily focused on database design and API implementation. Additionally, I made significant contributions to infrastructure-related tasks. I used Docker to assist team members with their development environments and established a CI/CD workflow using Github Actions. Furthermore, I put substantial effort into designing and implementing the server architecture using AWS services such as EC2, CodeDeploy, S3, CloudFront, and others.",
+      "ghLink": "https://github.com/JoHoEunSaE/exchange-diary",
+      "demoLink": "https://apps.apple.com/kr/app/%EA%B3%B5%EC%9C%A0%EC%9D%BC%EA%B8%B0/id1560228277"
+    },
+    "voice-with-me": {
+      "title": "Voice With Me",
+      "description": "Voice With Me is a service that allows users to have voice conversations with ChatGPT. Users can ask questions to GPT using their voice and receive responses in audio format. This project is built using Next.js and is based on the open-source repository at https://github.com/mckaywrigley/chatbot-ui. It utilizes OpenAI's Whisper model API to convert user's voice into text and the gpt-3.5 model API to generate responses. A demo version of the service is deployed on Vercel.",
+      "ghLink": "https://github.com/sichoi42/voice-with-me",
+      "demoLink": "https://voice-with-me.vercel.app/"
+    },
+    "bossle": {
+      "title": "Bossle",
+      "description": "Bossle is a mobile live screen application that reminds users to take an umbrella before going out. This application provides weather information based on the user's current location, allowing users to check the current weather conditions on their lock screen. For example, if it's currently raining in the user's area, the lock screen will display an indication of rain. I was responsible for creating an AWS Lambda function (using Node.js runtime) to provide weather information for this project, and it was delivered to users through API Gateway. To simplify deployment and management, we leveraged the Serverless Application Model (SAM) service, which made it easy to test and deploy the AWS Lambda function.",
+      "ghLink": "https://github.com/dgu-BOSSLE/weather-app",
+      "demoLink": "https://play.google.com/store/apps/details?id=com.bossle.bossle"
+    }
+  }
+}
