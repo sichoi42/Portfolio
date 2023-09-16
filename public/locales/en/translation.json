@@ -5,10 +5,10 @@
     "name": "Sichoi",
     "surplus": "",
     "type": {
-      "1": "Software Developer",
-      "2": "Freelancer",
-      "3": "MERN Stack Developer",
-      "4": "Open Source Contributor"
+      "1": "Software Engineer",
+      "2": "Backend Developer",
+      "3": "DevOps Engineer",
+      "4": "Cloud Engineer"
     }
   },
   "project": {
