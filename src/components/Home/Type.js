@@ -13,6 +13,7 @@ function Type() {
           t("home.type.2"),
           t("home.type.3"),
           t("home.type.4"),
+          t("home.type.5"),
         ],
         autoStart: true,
         loop: true,
