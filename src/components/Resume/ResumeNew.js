@@ -20,6 +20,10 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
+          <h3 className="project-heading">
+            보이는 이력서는 샘플 이력서입니다. 곧 제 이력서로 업데이트
+            예정입니다.
+          </h3>
           <Button
             variant="primary"
             href={pdf}
