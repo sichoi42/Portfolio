@@ -5,11 +5,11 @@
     "name": "Sichoi",
     "surplus": "",
     "type": {
-      "1": "Software Engineer",
+      "1": "Software Developer",
       "2": "Backend Developer",
-      "3": "DevOps Engineer",
-      "4": "Infrastructure Engineer",
-      "5": "Cloud Engineer"
+      "3": "DevOps Developer",
+      "4": "Infrastructure Developer",
+      "5": "Cloud Developer"
     }
   },
   "project": {
